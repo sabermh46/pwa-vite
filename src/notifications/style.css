@@ -1,0 +1,56 @@
+.notification-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
+  
+  .notification-button.primary {
+    background-color: #3b82f6;
+    color: white;
+  }
+  
+  .notification-button.primary:hover {
+    background-color: #2563eb;
+  }
+  
+  .notification-button.secondary {
+    background-color: #e2e8f0;
+    color: #1e293b;
+  }
+  
+  .notification-button.enabled {
+    background-color: #10b981;
+    color: white;
+  }
+  
+  .notification-button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
+  
+  .notification-button.loading {
+    position: relative;
+    opacity: 0.7;
+  }
+  
+  .icon {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  
+  .help-text {
+    font-size: 0.875rem;
+    color: #64748b;
+    margin-top: 0.5rem;
+  }
+  
+  .notification-error {
+    color: #dc2626;
+    padding: 1rem;
+    background-color: #fee2e2;
+    border-radius: 4px;
+  }

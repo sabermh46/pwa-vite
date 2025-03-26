@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #49a953;
+  --color-secondary: #7fef7f;
+  --color-background: #9ec892;
+  --color-surface: #92c795;
+  --color-text: #ffffff;
+  --color-icon: #1d953b;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  font-family: "Poppins", sans-serif;
+ }
+
+.boxShadow20 {
+  box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.3);
+}
+
+.page {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
